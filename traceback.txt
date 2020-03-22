@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 57, in script
+    jump Ruri_ikut2
+ScriptError: could not find label 'Ruri_ikut2'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 57, in script
+    jump Ruri_ikut2
+  File "E:\Renpy\renpy-7.2.2-sdk\renpy\ast.py", line 1678, in execute
+    rv = renpy.game.script.lookup(target)
+  File "E:\Renpy\renpy-7.2.2-sdk\renpy\script.py", line 886, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'Ruri_ikut2'.
+
+Windows-8-6.2.9200
+Ren'Py 7.2.2.491
+The Choosen One 0.1
+Sun Mar 22 15:51:06 2020
