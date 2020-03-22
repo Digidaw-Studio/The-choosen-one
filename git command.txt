@@ -1,0 +1,12 @@
+git status 									= ngecek working area,apakah ada perubahan atau tidak
+git log 									= ngecek history commit yg telah lu lakukan
+git add . 									= nambahin file ke staging area(file yg siap di commit)
+git commit -m "" 								= melakukan commit/perjanjian/save perubahan yg telah lu lakukan
+git push         								= upload perubahan lu dari local ke remote(github)
+git pull	 								= download perubahan dari remote(github) ke local
+git branch	 								= mengecek ada branch apa aja	
+git branch <nama_branch> 							= bikin branch baru
+git fetch        								= ngecek apa ada perubahan di remote(github) apa engga
+git merge        								= buat nyatuin branch
+git clone        								= melakukan cloning/download repository orang
+alias graph="git log --all --decorate --oneline --graph"    			=buat ngecek history commit,tapi ada grafiknya
