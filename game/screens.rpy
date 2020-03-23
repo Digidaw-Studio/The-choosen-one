@@ -386,7 +386,7 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu35%.png"
+    background "gui/overlay/main_menu40%.png"
 
 style main_menu_vbox:
     xalign 1.0
@@ -498,7 +498,7 @@ style game_menu_outer_frame:
     bottom_padding 45
     top_padding 180
 
-    background "gui/overlay/game_menu30%.png"
+    background "gui/overlay/game_menubirutua.png"
 
 style game_menu_navigation_frame:
     xsize 420
@@ -1448,11 +1448,11 @@ style nvl_window:
 
 style main_menu_frame:
     variant "small"
-    background "gui/phone/overlay/main_menu35%.png"
+    background "gui/phone/overlay/main_menu40%.png"
 
 style game_menu_outer_frame:
     variant "small"
-    background "gui/phone/overlay/game_menu30%.png"
+    background "gui/phone/overlay/game_menubirutua.png"
 
 style game_menu_navigation_frame:
     variant "small"

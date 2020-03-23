@@ -11,3 +11,4 @@ git merge        								= buat nyatuin branch
 git clone        								= melakukan cloning/download repository orang
 alias graph="git log --all --decorate --oneline --graph"    			= buat ngecek history commit,tapi ada grafiknya
 git branch -d <nama_branch>							= menghapus branch local
+git checkout									= mengganti branch
