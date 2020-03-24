@@ -9,6 +9,7 @@ define S = Character("Sarah")
 define Mom = Character("Ibu Rangga", who_color="#2e70ff")
 define Ruri = Character ("Ruri", who_color="#2e70ff") #adeknya rangga
 define Narator = Character ("")
+define D = Character ("Deni")
 
 #Rangga = B aja, ga jelek,dan gak ganteng amat
 #Sarah = rambut panjang,berkacamata
@@ -35,14 +36,17 @@ label start:
 
     Narator "*Mimpi Buruk"
 
-
-    R "Maksud mimpi gua tadi, apa ya?"
-    R "Yaudahlah, ngapain gua pusing-pusing mikirin"
+    R "....."
+    R "Maksud mimpi ku tadi, apa ya?"
+    R "..."
+    R "Yaudahlah, ngapain pusing-pusing mikirin mimpi."
     Mom "Ranggaaaaaa!!! Bangun...Sarapannya udah siap nih!"
     R "Iya mah, rangga segera turun."
+    with fade
     Mom "Ayo cepat diabisin makanan nya, jangan sampai telat. Ini kan hari pertama
         kamu sekolah."
-    Ruri "Kak,Bareng dong!!!"
+    R "Iya mah."
+    Ruri "Kak,Bareng dong berangkatnya!!!"
 
     menu :
         "Yaudah ayo":
@@ -52,14 +56,95 @@ label start:
             jump Ruri_gaikut
 
     label Ruri_ikut:
-        R "yaudah cepetan abisin makan nya dulu!"
+        R "yaudah, tapi buruan abisin makan nya dulu!"
         Ruri "Asik!!!"
-        jump Ruri_ikut2
+        scene bgroom
+        with fade
+        Ruri "makasih ya kak, udah anter ruri!"
+        R "Iya, Kamu belajar yang rajin ya!"
+        Ruri "Pasti dong kak!!!"
+        R "Bagus."
+        R "Iyaudah, kakak berangkat dlu ya."
+        Ruri "Oke kak, hati-hati di jalan ya!"
+        jump disekolah
 
     label Ruri_gaikut:
         R "Nggak ah, kakak lagi buru-buru,kamu berangkat sama ayah aja!"
-        Ruri "dasar, Kakak Jahat!!!"
+        Ruri "Iyaudah deh."
         jump disekolah
+
+    label disekolah:
+        with fade
+        R "waduh gawat, udah mau dimulai nih upacara nya, aku gaboleh sampai terlambat."
+        with fade
+        R "hadehhh, akhirnya selesai juga..."
+        R "Pidato pembukaan tadi terlalu panjang.Sampe ngantuk dengerinnya"
+        with vpunch
+        Narator"sfx:gedubrak!!!"
+        R "eh maaf-maaf, gua ga sengaja"
+        S "....."
+        R "Ini buku lu, maafin gua ya!"
+        S "..... (Diam tanpa sepatah kata,dan langsung pergi)"
+        R "Aishhh, sombong banget itu cewe..."
+        R "Gua minta maaf ga di respon sama sekali"
+        R "Tapi kayak gua pernah liat tuh cewe"
+        R "Ahhh udahlah, lagi-lagi gua mikirin hal yang ga penting"
+
+        scene kelas
+        with fade
+
+        Narator "Woy Rangga!!!"
+        R "Deni??? lu sekolah disini juga?"
+        D "Yoi, lu duduk dimana rang?"
+        R "Tuh dibelakang,sendiri"
+        D "Aduh sedih banget duduknya sendiri..."
+        D "Gua duduk bareng lu yak? boleh ga?"
+        R "Ya Boleh lah den, santai!"
+        Narator "Pelajaran pun berlangsung"
+        D "Akhirnya selesai jugaaaaaa!!!"
+        D "Balik yuk rang!"
+        R "Ayo"
+
+        scene rumah
+        with fade
+        R "Assalamualaikum..."
+        Mom "Waalaikumsalam"
+        Mom "Gimana rang hari pertamanya? Lancar?"
+        R "Alhamdulillah lancar mah"
+        R "untungnya ada si Deni temen lama aku,jadi nya aku ga sendirian deh dikelas"
+        Mom "Woah,Syukur deh kalo begitu"
+
+        Mom "Oh iya, kamu mau makan apa engga rangga? Mamah udah masak nih."
+        menu :
+            "Makan":
+                jump rangga_makan
+
+            "Ke Kamar":
+                jump rangga_kekamar
+
+        label rangga_makan:
+            R "Boleh deh mah, rangga laper belum makan"
+            Mom "Oke,mamah siapin dlu ya"
+            R "Oke mah!"
+            scene ruangmakan with fade
+            R "Alhamdulillah kenyang."
+            R "Makasih ya mah makanannya,rangga mau ke kamar dulu"
+            Mom "Iya rang, jangan lupa ganti baju"
+            R "Iya mah"
+            jump rangga_kekamar
+
+        label rangga_kekamar:
+            with fade
+            R "Hadeh,badan pada pegel-pegel banget..."
+            R "Tidur dulu deh sebentar"
+            with fade
+
+
+
+
+
+
+
 
 
 
