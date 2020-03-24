@@ -26,7 +26,7 @@ init python:
 define gui.accent_color = '#005eff'
 
 ## The color used for a text button when it is neither selected nor hovered.
-define gui.idle_color = '#b0d0d6'
+define gui.idle_color = '#5c5e6e' ##b0d0d6
 
 ## The small color is used for small text, which needs to be brighter/darker to
 ## achieve the same effect.
