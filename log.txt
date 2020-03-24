@@ -1,8 +1,42 @@
+<<<<<<< HEAD
+Wed Mar 25 05:57:08 2020
+=======
 Tue Mar 24 15:33:18 2020
+>>>>>>> master
 Windows-8-6.2.9200
-Ren'Py 7.3.5.606
+Ren'Py 7.2.2.491
  
 
+<<<<<<< HEAD
+Bootstrap to the start of init.init took 0.28s
+Early init took 0.01s
+Loader init took 0.05s
+Loading error handling took 0.08s
+Loading script took 0.59s
+Loading save slot metadata. took 0.05s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.24s
+Loading analysis data took 0.15s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Panda~\\AppData\\Roaming/RenPy/backups\\The Choosen One':
+Dump and make backups. took 0.24s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.000000
+Creating interface object took 0.15s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.03s
+Load screen analysis took 0.00s
+Analyze screens took 0.09s
+Save screen analysis took 0.27s
+Prepare screens took 0.23s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.20s
+=======
 Bootstrap to the start of init.init took 0.14s
 Early init took 0.01s
 Loader init took 0.05s
@@ -31,17 +65,23 @@ Save screen analysis took 0.16s
 Prepare screens took 0.12s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.11s
+>>>>>>> master
 Running _start took 0.00s
 Performance test:
-Interface start took 0.05s
+Interface start took 0.07s
 
 primary display bounds: (0, 0, 1366, 768)
 swap interval: 1 frames
 Fullscreen mode.
 Screen sizes: virtual=(1920, 1080) physical=(1366, 768) drawable=(1366, 768)
 Vendor: 'ATI Technologies Inc.'
+<<<<<<< HEAD
+Renderer: 'AMD Radeon(TM) R3 Graphics'
+Version: '4.5.13476 Compatibility Profile Context 22.19.180.1536'
+=======
 Renderer: 'AMD Radeon(TM) R5 Graphics'
 Version: '4.6.13587 Compatibility Profile Context 20.2.1 26.20.15019.1003'
+>>>>>>> master
 Display Info: <Info({'blit_sw_CC': False, 'refresh_rate': 60, 'bitsize': 32, 'wm': True, 'losses': (0, 0, 0, 8), 'hw': False, 'masks': (16711680L, 65280L, 255L, 0L), 'current_h': 768, 'current_w': 1366, 'shifts': (16, 8, 0, 0), 'blit_sw_A': False, 'blit_hw': False, 'blit_sw': False, 'bytesize': 4, 'blit_hw_CC': False, 'blit_hw_A': False, 'video_mem': 268435456})>
 Fixed-function is blacklisted.
 Extensions:
@@ -54,7 +94,7 @@ Extensions:
     GL_AMD_framebuffer_sample_positions
     GL_AMD_gcn_shader
     GL_AMD_gpu_shader_half_float
-    GL_AMD_gpu_shader_int16
+    GL_AMD_gpu_shader_half_float2
     GL_AMD_gpu_shader_int64
     GL_AMD_interleaved_elements
     GL_AMD_multi_draw_indirect
@@ -143,12 +183,10 @@ Extensions:
     GL_ARB_multitexture
     GL_ARB_occlusion_query
     GL_ARB_occlusion_query2
-    GL_ARB_parallel_shader_compile
     GL_ARB_pipeline_statistics_query
     GL_ARB_pixel_buffer_object
     GL_ARB_point_parameters
     GL_ARB_point_sprite
-    GL_ARB_polygon_offset_clamp
     GL_ARB_program_interface_query
     GL_ARB_provoking_vertex
     GL_ARB_query_buffer_object
@@ -172,7 +210,6 @@ Extensions:
     GL_ARB_shader_subroutine
     GL_ARB_shader_texture_image_samples
     GL_ARB_shader_texture_lod
-    GL_ARB_shader_viewport_layer_array
     GL_ARB_shading_language_100
     GL_ARB_shading_language_420pack
     GL_ARB_shading_language_packing
@@ -180,7 +217,6 @@ Extensions:
     GL_ARB_shadow_ambient
     GL_ARB_sparse_buffer
     GL_ARB_sparse_texture
-    GL_ARB_spirv_extensions
     GL_ARB_stencil_texturing
     GL_ARB_sync
     GL_ARB_tessellation_shader
@@ -266,8 +302,6 @@ Extensions:
     GL_EXT_gpu_program_parameters
     GL_EXT_gpu_shader4
     GL_EXT_histogram
-    GL_EXT_memory_object
-    GL_EXT_memory_object_win32
     GL_EXT_multi_draw_arrays
     GL_EXT_packed_depth_stencil
     GL_EXT_packed_float
@@ -278,8 +312,6 @@ Extensions:
     GL_EXT_provoking_vertex
     GL_EXT_rescale_normal
     GL_EXT_secondary_color
-    GL_EXT_semaphore
-    GL_EXT_semaphore_win32
     GL_EXT_separate_specular_color
     GL_EXT_shader_image_load_store
     GL_EXT_shader_integer_mix
@@ -307,8 +339,6 @@ Extensions:
     GL_EXT_texture_object
     GL_EXT_texture_rectangle
     GL_EXT_texture_sRGB
-    GL_EXT_texture_sRGB_R8
-    GL_EXT_texture_sRGB_RG8
     GL_EXT_texture_sRGB_decode
     GL_EXT_texture_shared_exponent
     GL_EXT_texture_snorm
@@ -320,14 +350,12 @@ Extensions:
     GL_EXT_vertex_array_bgra
     GL_EXT_vertex_attrib_64bit
     GL_IBM_texture_mirrored_repeat
+    GL_INTEL_fragment_shader_ordering
     GL_KHR_context_flush_control
     GL_KHR_debug
-    GL_KHR_no_error
-    GL_KHR_parallel_shader_compile
     GL_KHR_robust_buffer_access_behavior
     GL_KHR_robustness
     GL_KTX_buffer_region
-    GL_NV_alpha_to_coverage_dither_control
     GL_NV_blend_square
     GL_NV_conditional_render
     GL_NV_copy_depth_to_color
@@ -337,7 +365,6 @@ Extensions:
     GL_NV_float_buffer
     GL_NV_half_float
     GL_NV_primitive_restart
-    GL_NV_shader_atomic_int64
     GL_NV_texgen_reflection
     GL_NV_texture_barrier
     GL_OES_EGL_image
@@ -349,9 +376,7 @@ Extensions:
     WGL_EXT_swap_control
 Number of texture units: 8
 Using shader environment.
-Using FBO RTT.
-Root FBO is: 0
-FBO Maximum Texture Size: 2048
+Using copy RTT.
 Using gl renderer.
 Texture testing:
 - Hardware max texture size: 16384
@@ -361,6 +386,23 @@ Texture testing:
 - 512px textures work.
 - 1024px textures work.
 - 2048px textures work.
+<<<<<<< HEAD
+Total time until interface ready: 4.77300000191s
+- Target is 5 frames in 0.333333333333 seconds.
+- Frame drawn at 0.000000 seconds.
+- Frame drawn at 0.018000 seconds.
+- Frame drawn at 0.027000 seconds.
+- Frame drawn at 0.036000 seconds.
+- Frame drawn at 0.045000 seconds.
+- 0.045000 seconds to render 5 frames.
+Cleaning stores took 0.00s
+Init translation took 0.54s
+Build styles took 0.04s
+Load screen analysis took 0.23s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+=======
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
 Total time until interface ready: 5.46300005913s
@@ -692,3 +734,4 @@ FBO Maximum Texture Size: 2048
 Using gl renderer.
 Root FBO is: 0
 FBO Maximum Texture Size: 2048
+>>>>>>> master

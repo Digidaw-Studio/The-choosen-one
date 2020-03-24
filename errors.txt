@@ -2,11 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/gui.rpy", line 89: EOL while scanning string literal
-(Perhaps you left out a " at the end of the first line.)
-    "gui/game_menu.png
-                      ^
-    
+File "game/script.rpy", line 65: expected statement.
+    Label Ruri_ikut2
+                    ^
 
-Ren'Py Version: Ren'Py 7.3.5.606
-Sat Mar 21 13:04:56 2020
+Ren'Py Version: Ren'Py 7.2.2.491
+Wed Mar 25 05:19:54 2020
