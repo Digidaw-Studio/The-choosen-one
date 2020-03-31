@@ -138,6 +138,62 @@ label start:
             R "Hadeh,badan pada pegel-pegel banget..."
             R "Tidur dulu deh sebentar"
             with fade
+        R "....."
+        Narator "Wahai anak muda..."
+        R "???"
+        Narator "Selamatkanlah perempuan ini..."
+        Narator "Selamatkan lah ia dari aura kegelapan!"
+        R "Aura kegelapan?"
+        Narator "Ya...Aura kegelapan yang telah menyelimuti hatinya"
+        R "Apa maksudmu? Aku tidak mengerti!"
+        Narator "Aura kegelapan di hati nya,terbentuk akibat kesengsaraan yang ia alami di
+                 dalam hidupnya"
+        Narator "Selamatkan lah dia! Buatlah ia bahagia, agar aura kegelapan di hatinya menghilang"
+        Narator "Akan tetapi,jika dia tidak segera diselamatkan..."
+        Narator "Kematian akan segera datang kepadanya."
+        R "Huh???" with vpunch
+        Narator "Kuberikan kesempatan ini pada mu!"
+        Narator "Karena...kau adalah 'Orang Yang Terpilih!' "
+
+        with fade
+
+        R "....."
+        R "Sial...lagi-lagi aku mengalami mimpi yang aneh"
+        R "Apa maksud mimpi-mimpi itu?"
+        R "Dan mengapa aku memimpikan wanita yang tak sengaja kutabrak kemarin?"
+        R "huh…mau dipikir seperti apapun juga,mimpi tetaplah mimpi!"
+        R "Dan tak akan menjadi kenyataan"
+        R "hah…sepertinya ini efek kecapekan"
+        R "Jadinya aku selalu mendapatkan mimpi yang aneh"
+        R "Yasudahlah, lebih baik ku hiraukan"
+        R "Aku harus bergegas ke sekolah!"
+        with fade
+        R "Semoga aman motor nya kutaruh disini."
+        D "Wey rang, lu berangkat sekolah naik motor?"
+        R "Iya den"
+        D "Wanjay, gua kira kagak bisa bawa motor lu hahaha"
+        R "Yeeee enak aja, lu kira gua bocah apa?"
+        D "Hahaha…canda rang"
+        R "Yaudah yuk ah ke kelas!"
+        D "Yuk"
+        with fade
+        Scene kelas
+
+        D "Hadehhh, hari ini pelajaran mtk lagi"
+        D "Mana gua paling gabisa sama mtk"
+        R "Sama ren gua jg paling kagak bisa mtk haha"
+        D "Yah,berarti gue salah dong milih duduk sama lu?"
+        R "Anjir lu mau duduk sama gua cmn karna ngira gua pinter mtk?"
+        D "Hahahaha...ya kagaklahhh rangg,bercanda gue"
+        R "Yeee awas aja lu!"
+        D "Udah gitu, guru mtk nya wali kelas kita lagi…mati dah"
+        R "Iya yak, pasti bakal sering nanya-nanya nih"
+        D "Eh tu guru nya dah dateng…"
+        R "wah iya"
+
+        with fade
+
+
 
 
 
