@@ -177,7 +177,7 @@ label start:
         R "Yaudah yuk ah ke kelas!"
         D "Yuk"
         with fade
-        Scene kelas
+        scene kelas
 
         D "Hadehhh, hari ini pelajaran mtk lagi"
         D "Mana gua paling gabisa sama mtk"
